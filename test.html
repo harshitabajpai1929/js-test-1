@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color picker</title>
+    <style>
+        button{
+            border: 0px solid light grey;
+        }
+        </style>
+    </head>
+<body>
+    <table style=" width: 60%;">
+        <tr>
+            <td><button id="btn" onclick="fun()" >yellow</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="changeColor()">blue</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="f()">green</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="fun()">pink</button></td>
+        </tr>
+    </table>
+
+    <script>
+        function changeColor(){
+            document.body.style.backgroundColor= 'blue';
+        }
+        function fun(){
+            document.body.style.backgroundColor= 'yellow';
+        }
+        function f(){
+            document.body.style.backgroundColor= 'green';
+        }
+        function u(){
+            document.body.style.backgroundColor= 'pink';
+        }
+
+    </script>
+</body>
+</html>
